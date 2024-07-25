@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="login.php" method="POST">
+            <label for="first_name">Firstname</label>
+            <input type="text" id="first_name"  name="first_name" placeholder="*Name...">
+                            
+            <label for="last_name">Lastname</label>
+            <input type="text" id="last_name" name="last_name" placeholder="*Nachname...">
+                            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="*Password...">                                                                                                                        
+                            
+            <input type="submit" value="Submit">
+        </form>
+        
+        <a href="logout.php">Exit</a>
+    </div>
+    <div>
+        
+    </div>
+    <?php include 'login.php' ;?>
+</body>
+</html>
